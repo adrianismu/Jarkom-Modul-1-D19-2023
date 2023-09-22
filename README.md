@@ -1,7 +1,10 @@
 # Jarkom-Modul-1-D19-2023
 Laporan Resmi Praktikum Jaringan Komputer Modul 1
 
-## Nama Anggota:
+## Anggota:
+Adrian Ismu Arifianto - 5025211116
+<br>
+Ahmad Rafif Hikmatiar - 5025211247
 
 ## Soal
 ### Soal 1
