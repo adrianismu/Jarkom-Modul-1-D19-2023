@@ -1,4 +1,4 @@
-# Jarkom-Modul-1-D19-2023
+![image](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/71255346/c2edb985-bcb5-4d5d-891c-d2161a9fe1e5)# Jarkom-Modul-1-D19-2023
 Laporan Resmi Praktikum Jaringan Komputer Modul 1
 
 ## Anggota:
@@ -101,6 +101,27 @@ Berikut jawaban untuk mendapatkan flag
 ![terminal5](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/89500557/5b15b021-e57c-43f9-9dd2-b47a51b64e23)
 
 ### Soal 6
+
+Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
+
+**Penyelesaian**
+
+Setelah membuka file .pcap dan menemukan paket 7812, kita fokus pada pesan "SOURCE ADDRESS 7812 is invalid" dengan petunjuk bahwa "SOURCE ADDRESS ADALAH KUNCI SEMUANYA." Artinya, kita perlu melihat alamat sumber (source address) dari paket tersebut. Setelah kita melihat alamat sumber dari paket tersebut, kita menemukan bahwa alamat sumber dari paket tersebut adalah ```ip.src == 104.18.14.101```.
+
+Kemudian, kita menggunakan petunjuk bahwa jenis cipher yang digunakan adalah "substitusi a1z26 Cipher" dengan rentang huruf dari A-R dan jawaban yang terdiri dari 6 huruf. Jadi, kita dapat memecah alamat IP ```104.18.14.101``` menjadi 6 bagian, yaitu:
+
+```10 4. 18. 14. 10 1```
+
+Kemudian, kita melakukan substitusi huruf dengan angka sesuai ketentuan ```A=1```, ```B=2```, ```C=3```, ```D=4```, ```E=5```, ```F=6```, ```G=7```, ```H=8```, ```I=9```, ```J=10```, ```K=11```, ```L=12```, ```M=13```, ```N=14```, ```O=15```, ```P=16```, ```Q=17```, ```R=18```. 
+
+Dengan mengikuti aturan ini, kita mendapatkan jawaban dari soal tersebut, yaitu ```JDRNJA```.
+
+![6a](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/71255346/39c9f82d-493b-4577-96f5-7f1d973e8b90)
+
+![6b](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/71255346/2d75d0aa-a045-418c-b384-7c554077be8e)
+
+**Jawab:** ```JDRNJA```
+
 ### Soal 7
 
 Berapa jumlah packet yang menuju IP 184.87.193.88?
