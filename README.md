@@ -10,7 +10,7 @@ Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 
 **Penyelesaian**
 
-Lakukan filter di wireshark untuk mendapatkan packet yang memiliki alamat IP portal praktikum Jarkom, yaitu 10.21.78.111. Kemudian lakukan query filter dengan cara ```ip.src == 10.21.78.111``.
+Lakukan filter di wireshark untuk mendapatkan packet yang memiliki alamat IP portal praktikum Jarkom, yaitu 10.21.78.111. Kemudian lakukan query filter dengan cara ```ip.src == 10.21.78.111```.
 
 Setelah itu, pilih salah satu packet dengan protokol HTTP, kemudian klik kanan -> Follow -> HTTP Stream. Sehingga akan muncul tampilan new window dengan detail web server yang digunakan pada portal praktikum akan muncul pada bagian berikut
 
