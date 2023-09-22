@@ -1,4 +1,4 @@
-![image](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/71255346/c2edb985-bcb5-4d5d-891c-d2161a9fe1e5)# Jarkom-Modul-1-D19-2023
+# Jarkom-Modul-1-D19-2023
 Laporan Resmi Praktikum Jaringan Komputer Modul 1
 
 ## Anggota:
@@ -108,6 +108,8 @@ Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggema
 
 Setelah membuka file .pcap dan menemukan paket 7812, kita fokus pada pesan "SOURCE ADDRESS 7812 is invalid" dengan petunjuk bahwa "SOURCE ADDRESS ADALAH KUNCI SEMUANYA." Artinya, kita perlu melihat alamat sumber (source address) dari paket tersebut. Setelah kita melihat alamat sumber dari paket tersebut, kita menemukan bahwa alamat sumber dari paket tersebut adalah ```ip.src == 104.18.14.101```.
 
+![6a](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/71255346/39c9f82d-493b-4577-96f5-7f1d973e8b90)
+
 Kemudian, kita menggunakan petunjuk bahwa jenis cipher yang digunakan adalah "substitusi a1z26 Cipher" dengan rentang huruf dari A-R dan jawaban yang terdiri dari 6 huruf. Jadi, kita dapat memecah alamat IP ```104.18.14.101``` menjadi 6 bagian, yaitu:
 
 ```10 4. 18. 14. 10 1```
@@ -115,8 +117,6 @@ Kemudian, kita menggunakan petunjuk bahwa jenis cipher yang digunakan adalah "su
 Kemudian, kita melakukan substitusi huruf dengan angka sesuai ketentuan ```A=1```, ```B=2```, ```C=3```, ```D=4```, ```E=5```, ```F=6```, ```G=7```, ```H=8```, ```I=9```, ```J=10```, ```K=11```, ```L=12```, ```M=13```, ```N=14```, ```O=15```, ```P=16```, ```Q=17```, ```R=18```. 
 
 Dengan mengikuti aturan ini, kita mendapatkan jawaban dari soal tersebut, yaitu ```JDRNJA```.
-
-![6a](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/71255346/39c9f82d-493b-4577-96f5-7f1d973e8b90)
 
 ![6b](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/71255346/2d75d0aa-a045-418c-b384-7c554077be8e)
 
