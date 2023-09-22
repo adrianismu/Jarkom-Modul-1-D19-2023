@@ -5,6 +5,29 @@ Laporan Resmi Praktikum Jaringan Komputer Modul 1
 
 ## Soal
 ### Soal 1
+
+User melakukukan berbagai aktivitas menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.
+
+a. Berapakah sequence number (raw) pada packet yang menunjukkan aktivitas tersebut?
+<br>
+b. Berapakah acknowledge number (raw) pada packet yang menunjukkan aktivitas tersebut?
+<br>
+c. Berapakah sequence number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
+<br>
+d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
+<br>
+
+**Penyelesaian**
+
+Cara untuk mengetahui sequence number (raw) dan acknowledge number (raw) pada wireshark yaitu dengan cara memilih packet lalu di bagian bawah tekan dropdown Transmission Control Protocol. Itu dilakukan untuk menjawab semua subnomor pada soal nomor 1.
+
+![1a](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/89500557/3c6121b5-b7c3-41cd-983d-b619acc248a6)
+![1b](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/89500557/fe151373-630d-4be3-a717-51e1bf41ce5c)
+
+Berikut jawaban untuk mendapatkan flag
+
+![terminal1](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/89500557/66e73082-1c75-44cd-ae82-b7c8712f6497)
+
 ### Soal 2
 
 Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
@@ -26,7 +49,54 @@ Setelah itu, pilih salah satu packet dengan protokol HTTP, kemudian ```klik kana
 
 ### Soal 3
 ### Soal 4
+
+Berapa nilai checksum yang didapat dari header pada paket nomor 130?
+
+**Penyelesaian**
+
+Untuk melihat nilah checksum, pertama pilih dahulu packet nomor 130 seperti yang dinyatakan dalam soal. Lalu di section bawah, pilih dropdown User Datagram Protocol dan akan tertera checksum packet tersebut
+
+![4](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/89500557/cfbb9230-29ec-4609-9060-b829744e9a3d)
+
+Berikut jawaban untuk mendapatkan flag
+
+![terminal4](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/89500557/6e461858-573d-4586-8b9f-9f9f55b368fb)
+
 ### Soal 5
+
+Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut.
+
+a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut?
+<br>
+b. Port berapakah pada server yang digunakan untuk service SMTP?
+<br>
+c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
+
+**Penyelesaian**
+
+Untuk menyelesaikan soal nomor 5, pertama kita harus tahu terlebih dahulu password untuk pertanyaan flag tersebut.
+<br>
+1. Cari packet yang berisi password
+
+![5a](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/89500557/9af96d66-ead1-4254-a7f0-0b51a64acb12)
+
+2. Decode password yang tertera menggunakan platform website decode online dan akan menghasilkan password asli untuk membuka file .txt yang berisi soal dari nomor 5
+
+![5a-2](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/89500557/533e44a9-44c4-4f09-afa7-06fd4da877cc)
+
+a. Jumlah dari packet bisa di lihat di section bawah kanan pada wireshark yang menunjukkan angka 60
+
+![5](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/89500557/1f700c03-4773-4db8-94d8-6dc4b346d198)
+
+b. Port dari SMTP merupakan general knowledge yang tidak berhubungan dengan wireshark jadi bisa disearch di google
+<br>
+c. Saya coba-coba menggunakan IP yang langsung tertera pada file pcap
+<br>
+
+Berikut jawaban untuk mendapatkan flag
+
+![terminal5](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/89500557/5b15b021-e57c-43f9-9dd2-b47a51b64e23)
+
 ### Soal 6
 ### Soal 7
 
@@ -43,6 +113,18 @@ Setelah itu, hitung jumlah packet yang menuju IP 184.87.193.88
 **Jawab:** ___6___
 
 ### Soal 8
+
+Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
+
+**Penyelesaian**
+
+Untuk melakukan filter, berikut querynya
+
+![8](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/89500557/965148f3-2913-4655-8850-bb96d15b390f)
+
+Berikut jawaban untuk mendapatkan flag
+
+![terminal8](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/89500557/a90f1624-d032-48fe-a99b-6ac67e463c09)
 
 ### Soal 9
 
