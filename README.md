@@ -1,4 +1,4 @@
-![image](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/71255346/7a437e22-1fb0-4e67-abd6-a3d0d48d14cc)# Jarkom-Modul-1-D19-2023
+# Jarkom-Modul-1-D19-2023
 Laporan Resmi Praktikum Jaringan Komputer Modul 1
 
 ## Nama Anggota:
