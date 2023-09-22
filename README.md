@@ -44,6 +44,7 @@ Setelah itu, hitung jumlah packet yang menuju IP 184.87.193.88
 ### Soal 8
 
 ### Soal 9
+
 Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
 
 **Penyelesaian**
@@ -56,3 +57,20 @@ Untuk mendapatkan paket yang berasal dari alamat 10.51.40.1, gunakan kueri filte
 
 
 ### Soal 10
+
+Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
+
+**Penyelesaian**
+
+Untuk mencari kredensial user yang benar ketika mencoba login menggunakan Telnet, kita perlu menggunakan kueri ```telnet contains "Login"```. Setelah itu akan muncul packet data yang memiliki kata login.
+
+![10a](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/71255346/61642054-9f14-47bd-b198-3be7b433d252)
+
+Untuk melihat user dan password yang benar kita perlu melakukan, ```klik kanan -> Follow -> TCP Stream```. Maka akan muncul new window seperti ini.
+
+![10b](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/71255346/c3cc229a-2007-46e9-b7ca-7d7a2a59cbc9)
+
+**Jawab:** 
+
+
+
