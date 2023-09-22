@@ -179,5 +179,6 @@ Untuk melihat user dan password yang benar kita perlu melakukan, ```klik kanan -
 
 **Jawab:** ___dhafin:kesayangannyak0k0___
 
-
+## Kendala yang dialami:
+Kesulitan memahami soal nomor 6 mencari source address dari paket 7812 dan memahami hint yang diberikan
 
