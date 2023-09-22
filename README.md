@@ -6,6 +6,7 @@ Laporan Resmi Praktikum Jaringan Komputer Modul 1
 ## Soal
 ### Soal 1
 ### Soal 2
+
 Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 
 **Penyelesaian**
@@ -27,6 +28,21 @@ Setelah itu, pilih salah satu packet dengan protokol HTTP, kemudian ```klik kana
 ### Soal 5
 ### Soal 6
 ### Soal 7
+
+Berapa jumlah packet yang menuju IP 184.87.193.88?
+
+**Penyelesaian**
+
+Lakukan filter di wireshark untuk mendapatkan packet yang memiliki alamat IP 184.87.193.88 dengan cara kueri filter ```ip.dst == 184.87.193.88```.
+
+![7a](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/71255346/25ed776b-6f7e-47e4-8a79-d118113ab7de)
+
+Setelah itu, hitung jumlah packet yang menuju IP 184.87.193.88
+
+**Jawab:** ___6___
+
+
+
 ### Soal 8
 ### Soal 9
 ### Soal 10
