@@ -1,4 +1,4 @@
-# Jarkom-Modul-1-D19-2023
+![image](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/71255346/7a437e22-1fb0-4e67-abd6-a3d0d48d14cc)# Jarkom-Modul-1-D19-2023
 Laporan Resmi Praktikum Jaringan Komputer Modul 1
 
 ## Nama Anggota:
@@ -41,8 +41,18 @@ Setelah itu, hitung jumlah packet yang menuju IP 184.87.193.88
 
 **Jawab:** ___6___
 
-
-
 ### Soal 8
+
 ### Soal 9
+Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
+
+**Penyelesaian**
+
+Untuk mendapatkan paket yang berasal dari alamat 10.51.40.1, gunakan kueri filter  ```ip.src == 10.51.40.1```. Setelah itu, untuk mendapatkan paket yang tidak menuju ke alamat 10.39.55.34, gunakan kueri filter ```ip.dst != 10.39.55.34```. Karena keduanya merupakan kondisi yang harus terpenuhi, keduanya harus digabungkan menggunakan operator logika ```&&```. Maka dari itu, hasil filter akan menampilkan paket-paket yang berasal dari alamat ```10.51.40.1``` dan tidak menuju ke alamat ```10.39.55.34```.
+
+![9a](https://github.com/adrianismu/Jarkom-Modul-1-D19-2023/assets/71255346/c21ce617-a84b-4205-9341-271e3bf4eb3c)
+
+**Jawab:** ```ip.src == 10.51.40.1 && ip.dst != 10.39.55.34```
+
+
 ### Soal 10
